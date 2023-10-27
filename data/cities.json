@@ -1,40 +1,112 @@
 {
-    "cities": [
-      {
-        "cityName": "Lisbon",
-        "country": "Portugal",
-        "emoji": "🇵🇹",
-        "date": "2027-10-31T15:59:59.138Z",
-        "notes": "My favorite city so far!",
-        "position": {
-          "lat": 38.727881642324164,
-          "lng": -9.140900099907554
-        },
-        "id": 73930385
+  "cities": [
+    {
+      "cityName": "Lisbon",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "My favorite city so far!",
+      "position": {
+        "lat": 38.727881642324164,
+        "lng": -9.140900099907554
       },
-      {
-        "cityName": "Madrid",
-        "country": "Spain",
-        "emoji": "🇪🇸",
-        "date": "2027-07-15T08:22:53.976Z",
-        "notes": "",
-        "position": {
-          "lat": 40.46635901755316,
-          "lng": -3.7133789062500004
-        },
-        "id": 17806751
+      "id": 73930385
+    },
+    {
+      "cityName": "Madrid",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2027-07-15T08:22:53.976Z",
+      "notes": "",
+      "position": {
+        "lat": 40.46635901755316,
+        "lng": -3.7133789062500004
       },
-      {
-        "cityName": "Berlin",
-        "country": "Germany",
-        "emoji": "🇩🇪",
-        "date": "2027-02-12T09:24:11.863Z",
-        "notes": "Amazing 😃",
-        "position": {
-          "lat": 52.53586782505711,
-          "lng": 13.376933665713324
-        },
-        "id": 98443197
-      }
-    ]
+      "id": 17806751
+    },
+    {
+      "cityName": "Berlin",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2027-02-12T09:24:11.863Z",
+      "notes": "Amazing 😃",
+      "position": {
+        "lat": 52.53586782505711,
+        "lng": 13.376933665713324
+      },
+      "id": 98443197
+    },
+    {
+      "cityName": "Arino",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-10-27T15:55:59.668Z",
+      "notes": "ssss",
+      "position": {
+        "lat": "41.06692773019345",
+        "lng": "-0.5932617187500001"
+      },
+      "id": 98443198
+    },
+    {
+      "cityName": "Montealegre del Castillo",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-10-27T15:58:46.830Z",
+      "notes": "Test location",
+      "position": {
+        "lat": "38.81831117374662",
+        "lng": "-1.2744140625000002"
+      },
+      "id": 98443199
+    },
+    {
+      "cityName": "Foggaret Ezzaou",
+      "country": "Algeria",
+      "emoji": "🇩🇿",
+      "date": "2023-10-27T16:00:49.518Z",
+      "notes": "sss",
+      "position": {
+        "lat": "27.059125784374068",
+        "lng": "4.042968750000001"
+      },
+      "id": 98443200
+    },
+    {
+      "cityName": "Pezarches",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2023-10-27T16:03:09.220Z",
+      "notes": "sss",
+      "position": {
+        "lat": "48.748945343432936",
+        "lng": "2.9882812500000004"
+      },
+      "id": 98443201
+    },
+    {
+      "cityName": "Birr",
+      "country": "Ireland",
+      "emoji": "🇮🇪",
+      "date": "2023-10-27T16:04:41.993Z",
+      "notes": "ss",
+      "position": {
+        "lat": "52.8823912222619",
+        "lng": "-7.998046875000001"
+      },
+      "id": 98443202
+    },
+    {
+      "cityName": "Theakston",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "🇬🇧",
+      "date": "2023-10-27T16:07:52.980Z",
+      "notes": "rr",
+      "position": {
+        "lat": "54.265224078605684",
+        "lng": "-1.5380859375000002"
+      },
+      "id": 98443203
+    }
+  ]
 }
