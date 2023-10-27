@@ -8,8 +8,8 @@ import Button from './Button'
 import styles from './Map.module.css'
 
 export default function Map() {
-    const [mapPosition, setMapPosition] = useState([40, 0]);
     const {cities} = useCities();
+    const [mapPosition, setMapPosition] = useState([40, 0]);
     const {isLoading: isLoadingPosition, position: geolocationPosition, getPosition} = useGeolocation();
 
     const [mapLat, mapLng] = useUrlPosition();

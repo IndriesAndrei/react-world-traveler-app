@@ -13,100 +13,88 @@
       "id": 73930385
     },
     {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": 17806751
-    },
-    {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": 98443197
-    },
-    {
-      "cityName": "Arino",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2023-10-27T15:55:59.668Z",
-      "notes": "ssss",
-      "position": {
-        "lat": "41.06692773019345",
-        "lng": "-0.5932617187500001"
-      },
-      "id": 98443198
-    },
-    {
-      "cityName": "Montealegre del Castillo",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2023-10-27T15:58:46.830Z",
-      "notes": "Test location",
-      "position": {
-        "lat": "38.81831117374662",
-        "lng": "-1.2744140625000002"
-      },
-      "id": 98443199
-    },
-    {
-      "cityName": "Foggaret Ezzaou",
-      "country": "Algeria",
-      "emoji": "🇩🇿",
-      "date": "2023-10-27T16:00:49.518Z",
-      "notes": "sss",
-      "position": {
-        "lat": "27.059125784374068",
-        "lng": "4.042968750000001"
-      },
-      "id": 98443200
-    },
-    {
-      "cityName": "Pezarches",
+      "cityName": "Sarcelles",
       "country": "France",
       "emoji": "🇫🇷",
-      "date": "2023-10-27T16:03:09.220Z",
+      "date": "2023-10-27T16:35:42.050Z",
+      "notes": "SSS",
+      "position": {
+        "lat": "48.980216985374994",
+        "lng": "2.3730468750000004"
+      },
+      "id": 73930386
+    },
+    {
+      "cityName": "Teruel",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-10-27T16:35:58.023Z",
       "notes": "sss",
       "position": {
-        "lat": "48.748945343432936",
-        "lng": "2.9882812500000004"
+        "lat": "40.36328834091583",
+        "lng": "-1.1096191406250002"
       },
-      "id": 98443201
+      "id": 73930387
     },
     {
-      "cityName": "Birr",
-      "country": "Ireland",
-      "emoji": "🇮🇪",
-      "date": "2023-10-27T16:04:41.993Z",
+      "cityName": "Cuevas de Vinroma",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-10-27T16:38:02.706Z",
       "notes": "ss",
       "position": {
-        "lat": "52.8823912222619",
-        "lng": "-7.998046875000001"
+        "lat": "40.38002840251183",
+        "lng": "0.09887695312500001"
       },
-      "id": 98443202
+      "id": 73930388
     },
     {
-      "cityName": "Theakston",
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "emoji": "🇬🇧",
-      "date": "2023-10-27T16:07:52.980Z",
-      "notes": "rr",
+      "cityName": "Albatarrec",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-10-27T16:38:37.804Z",
+      "notes": "vb",
       "position": {
-        "lat": "54.265224078605684",
-        "lng": "-1.5380859375000002"
+        "lat": "41.566141964768384",
+        "lng": "0.6262207031250001"
       },
-      "id": 98443203
+      "id": 73930389
+    },
+    {
+      "cityName": "Lokca",
+      "country": "Slovakia",
+      "emoji": "🇸🇰",
+      "date": "2023-10-27T16:41:01.211Z",
+      "notes": ",,kkj",
+      "position": {
+        "lat": "49.32512199104003",
+        "lng": "19.423828125000004"
+      },
+      "id": 73930390
+    },
+    {
+      "cityName": "Vilalba dels Arcs",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-10-27T16:42:41.302Z",
+      "notes": "sss",
+      "position": {
+        "lat": "41.16211393939692",
+        "lng": "0.406494140625"
+      },
+      "id": 73930391
+    },
+    {
+      "cityName": "Zaragoza",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-10-27T16:42:47.739Z",
+      "notes": "sss",
+      "position": {
+        "lat": "41.65649719441145",
+        "lng": "-0.8789062500000001"
+      },
+      "id": 73930392
     }
   ]
 }
