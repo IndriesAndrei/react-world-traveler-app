@@ -2,8 +2,12 @@ import Message from './Message'
 import CountryItem from './CountryItem';
 import Spinner from './Spinner'
 import styles from './CountryList.module.css'
+import { useCities } from '../contexts/CitiesContext';
 
-export default function CountryList({cities, isLoading}) {
+export default function CountryList() {
+    // consuming custom Context 
+    const {cities, isLoading} = useCities();
+
     if (isLoading) return <Spinner />;
 
     if (!cities.length) return <Message message='Add your first city by clicking on a city on the map'/>
@@ -17,7 +21,7 @@ export default function CountryList({cities, isLoading}) {
 
     return (
         <ul className={styles.countryList}>
-            {countries.map((country) => <CountryItem country={country} />)}
+            {countries.map((country) => <CountryItem country={country} key={country.country} />)}
         </ul>        
     )
 }
