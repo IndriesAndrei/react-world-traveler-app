@@ -11,35 +11,38 @@ import PageNotFound from './pages/PageNotFound'
 import Pricing from './pages/Pricing'
 import Product from './pages/Product'
 import { CitiesProvider } from './contexts/CitiesContext'
+import { AuthProvider } from './contexts/FakeAuthContext'
 
 function App() {
   return (
-    <CitiesProvider>
-      <BrowserRouter>
-        <Routes>
-          <Route index element={<Homepage />} />
-          <Route path="product" element={<Product />} />
-          <Route path="pricing" element={<Pricing />} />
-          <Route path="login" element={<Login />} />
+    <AuthProvider>
+      <CitiesProvider>
+        <BrowserRouter>
+          <Routes>
+            <Route index element={<Homepage />} />
+            <Route path="product" element={<Product />} />
+            <Route path="pricing" element={<Pricing />} />
+            <Route path="login" element={<Login />} />
 
-          {/* nested routes between <Route></Route> */}
-          <Route path="app" element={<AppLayout />}>
-            {/* index route is the default child route if none of other routes matches */}
-            {/* Navigate is like a redirect; it is mainly used in nested routes */}
-            <Route index element={<Navigate replace to='cities' />} />
+            {/* nested routes between <Route></Route> */}
+            <Route path="app" element={<AppLayout />}>
+              {/* index route is the default child route if none of other routes matches */}
+              {/* Navigate is like a redirect; it is mainly used in nested routes */}
+              <Route index element={<Navigate replace to='cities' />} />
 
-            <Route path='cities' element={<CityList />} />
-            {/* dynamic route with URL parameter */}
-            <Route path='cities/:id' element={<City />} />
+              <Route path='cities' element={<CityList />} />
+              {/* dynamic route with URL parameter */}
+              <Route path='cities/:id' element={<City />} />
 
-            <Route path='countries' element={<CountryList />} />
-            <Route path='form' element={<Form />} />
-          </Route>
-          {/* 404 page for all not found url's/pages */}
-          <Route path="*" element={<PageNotFound />} />
-        </Routes>
-      </BrowserRouter>
-    </CitiesProvider>
+              <Route path='countries' element={<CountryList />} />
+              <Route path='form' element={<Form />} />
+            </Route>
+            {/* 404 page for all not found url's/pages */}
+            <Route path="*" element={<PageNotFound />} />
+          </Routes>
+        </BrowserRouter>
+      </CitiesProvider>
+    </AuthProvider>
   )
 }
 
