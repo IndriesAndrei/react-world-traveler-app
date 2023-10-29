@@ -12,6 +12,7 @@ import Pricing from './pages/Pricing'
 import Product from './pages/Product'
 import { CitiesProvider } from './contexts/CitiesContext'
 import { AuthProvider } from './contexts/FakeAuthContext'
+import ProtectedRoute from './pages/ProtectedRoute'
 
 function App() {
   return (
@@ -25,7 +26,11 @@ function App() {
             <Route path="login" element={<Login />} />
 
             {/* nested routes between <Route></Route> */}
-            <Route path="app" element={<AppLayout />}>
+            <Route path="app" element={
+                <ProtectedRoute>
+                  <AppLayout />
+                </ProtectedRoute>
+            }>
               {/* index route is the default child route if none of other routes matches */}
               {/* Navigate is like a redirect; it is mainly used in nested routes */}
               <Route index element={<Navigate replace to='cities' />} />
